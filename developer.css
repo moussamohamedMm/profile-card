@@ -1,0 +1,75 @@
+body{
+    background-image: url(download.jpg);
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+.creation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-avatar{
+    background: #66fcf1;
+    color: #0b0c10;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
+}
+.moussa{
+    margin-bottom: 20px;
+}
+.moussa h1{
+    color: cyan;
+}
+.about{
+    text-decoration: none;
+    color: cyan;
+    padding: 5px;
+    margin: 10px;
+}
+.elgammal{
+    background: #222;
+    height: fit-content;
+    width: 300px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid cyan;
+    box-shadow: 0 5px 10px cyan;
+}
+.design{
+    display: block;
+    text-decoration: none;
+    color: cyan;
+    margin: 8px;
+    padding: 6px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+    transition: 0.3s;
+}
+.design:hover{
+    background: cyan;
+    border: 1px solid black;
+    color: black;
+}
+.egypt{
+    width: 300px;
+    background: #222;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
